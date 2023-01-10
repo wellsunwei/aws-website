@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env ENV_NAME=dev BASE_URL=http://10.12.72.63:22000 NODE_ENV=http://10.12.72.63:22000 nuxt",
+    "dev": "cross-env ENV_NAME=dev BASE_URL=https://dc-testapi.awsapp.cn NODE_ENV=https://dc-testapi.awsapp.cn nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -43,7 +43,7 @@
     "remark-gfm": "^3.0.1",
     "remark-math": "^5.1.1",
     "sass-loader": "^10.1.1",
-    "swiper": "6.5.1",
+    "swiper": "^5.4.5",
     "tinymce": "5.10.7",
     "vue": "^2.6.14",
     "vue-awesome-swiper": "^4.1.1",
